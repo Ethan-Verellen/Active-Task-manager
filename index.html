@@ -22,7 +22,7 @@
   </header>
   <div class="container">
     <div class="text-center mb-5">
-      <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#formModal">Add Task</button>
+      <button class="btn btn-success" id="add" data-bs-toggle="modal" data-bs-target="#formModal">Add Task</button>
     </div>
     <!-- Todo: Create a modal with a form to add tasks -->
     <div class="row swim-lanes text-center justify-content-between">
@@ -58,7 +58,18 @@
       </div>
     </div>
   </div>
-
+  <div id="dialog" title="Taskboard Info" style="display: none;"> 
+    <form id="taskboard">
+      <label for="">Task Name</label><br>
+      <input type="text" id="name"><br>
+      <label for="">Due Date</label><br>
+      <input type="text" id="date"><br>
+      <label for="">Task Description</label><br>
+      <textarea type="text" id="description" rows="6" cols="30"></textarea><br>
+      <button id="submit" type="submit">CLICK WHEN DONE</button>
+  </form>
+</div> 
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
@@ -68,6 +79,9 @@
     integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
 
   <script src="./assets/js/script.js"></script>
+
+
+
 </body>
 
 </html>
