@@ -18,7 +18,7 @@ This is a way to write down what happens to you in a way that saves it, but does
 
 ## Link
 
-https://ethan-verellen.github.io/Self-blog/
+[https://ethan-verellen.github.io/Self-blog/](https://ethan-verellen.github.io/Active-Task-manager/)
 
 ## License
 
